@@ -1,0 +1,97 @@
+@import url(./reset.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Alice", serif;
+  color: #573a37;
+}
+
+body {
+  background-image: url(/src/assets/bg-image.png);
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 1.5rem;
+}
+
+#Page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  width: 50rem;
+  padding: 1.5rem;
+  background-color: #f0e8c2;
+  border-radius: 1.5rem;
+  margin: 3rem auto;
+}
+
+#Page img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25rem;
+}
+
+section + section {
+  margin-top: 1.5rem;
+}
+
+#About p + p {
+  margin-top: 0.75rem;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 140%;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h1,
+h2 {
+  color: #291b1a;
+  margin-bottom: 0.25rem;
+  line-height: 150%;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f0e8c2;
+  padding-bottom: 3rem;
+  gap: 0.25rem;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+a {
+  color: #f0e8c2;
+}
